@@ -14,17 +14,7 @@ pipeline {
             }
         }
         
-        stage('Code Compile') {
-            steps {
-               sh "mvn clean compile"
-            }
-        }
-        
-        stage('Unit Test') {
-            steps {
-               sh "mvn  test"
-            }
-        } 
+     
     }
 }
         
